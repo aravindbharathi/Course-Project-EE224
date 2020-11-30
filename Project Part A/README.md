@@ -16,7 +16,7 @@ The output should be the 16 bit result of the computation and carry (in case of 
 
 Design a fast adder (Brent Kung/ Kogge Stone) to compute addition operation. 
 
- 
+##
 
 Submission output:
 
