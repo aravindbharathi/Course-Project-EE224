@@ -15,7 +15,7 @@ architecture dataflow of GPGG is
 
 begin
 
-	Gij <= Gk or Pk and Gj;
+	Gij <= Gk or (Pk and Gj);
 	Pij <= Pk and Pj;
 
 end dataflow;

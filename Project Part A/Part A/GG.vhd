@@ -15,6 +15,6 @@ architecture dataflow of GG is
 
 begin
 
-	Gij <= Gk or Pk and Gj;
+	Gij <= Gk or (Pk and Gj);
 
 end dataflow;
