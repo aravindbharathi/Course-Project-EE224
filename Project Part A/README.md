@@ -25,3 +25,11 @@ VHDL Code
 Testbench
 
 Output waveform
+
+##
+
+Resources used:
+1. Circuit Diagram: https://shareok.org/bitstream/handle/11244/25747/Gundi_okstate_0664M_13905.pdf;sequence=1 pages 20,22 and 27
+2.  Sample code for a 1 bit ALU https://technobyte.org/vhdl-code-for-alu-structural/ (fucking destroyed me when I saw it for the first time 5 hours ago)
+3.  YouTube https://www.youtube.com/watch?v=eq1ixy37ZmM
+4. Structural Adder Full Code https://gist.github.com/tpmckenzie/6999083
