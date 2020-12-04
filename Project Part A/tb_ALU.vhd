@@ -156,7 +156,7 @@ begin
 	 S1 <= '1';
 	 wait for 50 ns;
 
---eigth test case
+--eighth test case
     A <= "1000000000000000";
     B <= "1000000000000000";
     	 S0 <= '0';
@@ -203,6 +203,218 @@ begin
 	 S0 <= '1';
 	 S1 <= '1';
 	 wait for 50 ns;
+		 
+		 
+--eleventh test case		 
+    A <= "0110110110110111";
+    B <= "1111111111111111";
+         S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+
+--twelfth test case
+    A <= "0000000000000000";
+    B <= "1111111111111111";
+         S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 
+--thirteenth test case
+    A <= "1101011101010101";
+    B <= "1111111000101011";
+         S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+
+--fourteenth test case
+    A <= "1001011110111000";
+    B <= "1000000000001001";
+    	 S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+
+--fifteenth test case
+    A <= "1111111011111111";
+    B <= "0000000100000000";
+    	 S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+
+--sixteenth test case
+    A <= "1111111110000000";
+    B <= "1111111110000000";
+    	 S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+
+--seventeenth test case
+    A <= "1111111100000000";
+    B <= "0000000011111111";
+    	 S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+
+--eighteenth test case
+    A <= "10000011111111111";
+    B <= "01111100001111110";
+    	 S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+
+--nineteenth test case
+    A <= "1011111000010101";
+    B <= "1011011110111110";
+    	 S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+
+--twentieth test case
+    A <= "0011001011011000";
+    B <= "1010101111000101";
+    	 S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+		 
+--twentyfirst test case
+    A <= "1111111111111111";
+    B <= "0000000000000000";
+    	 S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+		 
+--twentysecond test case
+    A <= "0000000000000001";
+    B <= "0000000000000000";
+    	 S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+		 
+--twentythird test case
+    A <= "0000000000000000";
+    B <= "0000000000000001";
+    	 S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+		 
+		 
+		
 	 
 
 	 wait;
