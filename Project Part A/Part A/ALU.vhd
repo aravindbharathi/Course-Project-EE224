@@ -11,7 +11,7 @@ entity ALU is
 		----
 		Z:	out STD_LOGIC;
 		C:	out STD_LOGIC;
-		R: inout STD_LOGIC_VECTOR(15 downto 0)
+		R: out STD_LOGIC_VECTOR(15 downto 0)
 		);
 end entity;
 
@@ -56,7 +56,7 @@ component mux is
 		(
 		X1, X2, X3, X4 : in STD_LOGIC_VECTOR(15 downto 0);
 		Sel1, Sel0: in STD_LOGIC;
-		Y: out STD_LOGIC_VECTOR(15 downto 0)
+		Y: inout STD_LOGIC_VECTOR(15 downto 0)
 		);
 end component;
 
@@ -68,6 +68,7 @@ component mux2 is
 		Y: out STD_LOGIC
 		);
 end component;
+
 
 component comp_zero is
 	port
@@ -86,6 +87,8 @@ signal sigSub: STD_LOGIC_VECTOR(16 downto 0);
 signal sigN: STD_LOGIC_VECTOR(15 downto 0);
 
 signal sigX: STD_LOGIC_VECTOR(15 downto 0);
+
+signal localR: STD_LOGIC_VECTOR(15 downto 0);
 
 begin
 
@@ -106,11 +109,11 @@ begin
 			
 	----
 	-- MUX Selection
-	Mstep: mux port map(sigAdd(15 downto 0), sigSub(15 downto 0), sigN, sigX, S1, S0, R);
+	Mstep: mux port map(sigAdd(15 downto 0), sigSub(15 downto 0), sigN, sigX, S1, S0, localR);
 	M2step: mux2 port map(sigAdd(16), sigSub(16), '0', '0', S1, S0, C);
 	
 	----
 	-- Zero Bit Evaluation
-	Zstep: comp_zero port map(R, Z);
-	
+	Zstep: comp_zero port map(localR, Z);
+	R <= localR;
 end Structural;

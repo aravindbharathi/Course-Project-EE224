@@ -10,66 +10,105 @@ end tb_ALU;
 architecture tb of tb_ALU is
 
 --component declaration
-component ALUcomp is
+component ALU is
 port(
-	abus: in std_logic_vector(15 downto 0);
-    bbus: in std_logic_vector(15 downto 0);
-    aluctrl: in std_logic_vector(1 downto 0);
-    aluout: out std_logic_vector(16 downto 0)
-    zero: out std_logic);
+	 A, B: in std_logic_vector(15 downto 0);
+    S1, S0: in std_logic;
+    Z: out std_logic;
+	 C: out std_logic;
+	 R: out std_logic_vector(15 downto 0));
 end component;
 
 --input signals
-signal abus: std_logic_vector(15 downto 0) := (others => '0');
-signal bbus: std_logic_vector(15 downto 0) := (others => '0');
-signal aluctrl: std_logic_vector(1 downto 0) := (others => '0');
+signal A: std_logic_vector(15 downto 0) := (others => '0');
+signal B: std_logic_vector(15 downto 0) := (others => '0');
+signal S1: std_logic := '0';
+signal S0: std_logic := '0';
 
 --output signal
-signal aluout: std_logic_vector(16 downto 0) := (others => '0');
-signal zero: std_logic := '0';
+signal R: std_logic_vector(15 downto 0) := (others => '0');
+signal Z: std_logic := '0';
+signal C: std_logic := '0';
 
 begin
 --	design under test initialisation
 	dut_instance: ALU port map(
-    abus => abus,
-    bbus => bbus,
-    aluctrl => aluctrl,
-    aluout => aluout
-    zero => zero);
+    A => A,
+    B => B,
+    S1 => S1,
+	 S0 => S0,
+    Z => Z,
+	 C => C,
+	 R => R);
 -- stimulus process
     stim_proc: process
     begin
 
 -- first test case
-    abus <= "0101010101010101";
-    bbus <= "1111111111111111";
-    aluctrl <= "00";
-    for i in 0 to 3 loop		-- going through all control inputs
-    wait for 50ns;
-    aluctrl = aluctrl + "1";
-    end loop;
-    wait for 50ns
+    A <= "0101010101010101";
+    B <= "1111111111111111";
+    S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
 
 --second test case
-    abus <= "0000000000000000";
-    bbus <= "0000000000000000";
-    aluctrl <= "00";
-    for i in 0 to 3 loop		-- going through all control inputs
-    wait for 50ns;
-    aluctrl = aluctrl + "1";
-    end loop;
-    wait for 50ns
-
+    A <= "0000000000000000";
+    B <= "0000000000000000";
+    S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 
 --third test case
-    abus <= "1010101010101010";
-    bbus <= "0000000000000000";
-    aluctrl <= "00";
-    for i in 0 to 3 loop		-- going through all control inputs
-    wait for 50ns;
-    aluctrl = aluctrl + "1";
-    end loop;
-    wait for 50ns
+    A <= "1101010101010101";
+    B <= "1010101010101010";
+    S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
 
-    wait;
+--fourth test case
+    A <= "1010101010101010";
+    B <= "0000000000000000";
+    S0 <= '0';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '0';
+	 wait for 50 ns;
+	 S0 <= '0';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 S0 <= '1';
+	 S1 <= '1';
+	 wait for 50 ns;
+	 
+
+	 wait;
     end process;
 end tb;

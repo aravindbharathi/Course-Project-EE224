@@ -13,22 +13,22 @@ entity mux is
 end mux;
 
 architecture dataflow of mux is
-
+signal localY: std_logic_vector(15 downto 0);
 begin
 
-process (X1,X2,X3,X4,Y,Sel1,Sel0)
+process (X1,X2,X3,X4,localY,Sel1,Sel0)
 	begin
 
 	if (Sel1 = '0' and Sel0 = '0') then	
-		Y <= X1;
+		localY <= X1;
 	elsif (Sel1 = '0' and Sel0 = '1') then
-		Y <= X2;
+		localY <= X2;
 	elsif (Sel1 = '1' and Sel0 = '0') then
-		Y <= X3;
+		localY <= X3;
 	else
-		Y <= X4;
+		localY <= X4;
 	end if;
 
 end process;
-	
+	Y <= localY;
 end dataflow;

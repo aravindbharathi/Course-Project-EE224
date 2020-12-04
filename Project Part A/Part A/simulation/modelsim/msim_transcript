@@ -1,0 +1,181 @@
+# Reading pref.tcl
+# do ALU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:07:30 on Dec 04,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture Structural of ALU
+# End time: 16:07:30 on Dec 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_xor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:07:30 on Dec 04,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_xor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity comp_xor
+# -- Compiling architecture dataflow of comp_xor
+# End time: 16:07:30 on Dec 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_nand.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:07:30 on Dec 04,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_nand.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity comp_nand
+# -- Compiling architecture dataflow of comp_nand
+# End time: 16:07:31 on Dec 04,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:07:31 on Dec 04,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# End time: 16:07:31 on Dec 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_add.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:07:31 on Dec 04,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_add.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity comp_add
+# -- Compiling architecture dataflow of comp_add
+# End time: 16:07:31 on Dec 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GPGG.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:07:31 on Dec 04,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GPGG.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity GPGG
+# -- Compiling architecture dataflow of GPGG
+# End time: 16:07:31 on Dec 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GG.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:07:31 on Dec 04,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GG.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity GG
+# -- Compiling architecture dataflow of GG
+# End time: 16:07:31 on Dec 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_zero.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:07:31 on Dec 04,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity comp_zero
+# -- Compiling architecture dataflow of comp_zero
+# End time: 16:07:31 on Dec 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:07:31 on Dec 04,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mux2
+# -- Compiling architecture dataflow of mux2
+# End time: 16:07:31 on Dec 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/../tb_ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:07:31 on Dec 04,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/../tb_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_ALU
+# -- Compiling architecture tb of tb_ALU
+# End time: 16:07:32 on Dec 04,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclone10lp -L rtl_work -L work -voptargs="+acc"  tb_ALU
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclone10lp -L rtl_work -L work -voptargs=""+acc"" tb_ALU 
+# Start time: 16:07:32 on Dec 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_alu(tb)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu(structural)
+# Loading work.comp_add(dataflow)
+# Loading work.gg(dataflow)
+# Loading work.gpgg(dataflow)
+# Loading work.comp_nand(dataflow)
+# Loading work.comp_xor(dataflow)
+# Loading work.mux(dataflow)
+# Loading work.mux2(dataflow)
+# Loading work.comp_zero(dataflow)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/dut_instance/Zstep
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_alu/dut_instance/Zstep
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_alu/dut_instance/Zstep
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_alu/dut_instance/Zstep
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /tb_alu/dut_instance/Zstep
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /tb_alu/dut_instance/Zstep

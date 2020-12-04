@@ -1,0 +1,459 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/simulation/modelsim
+Ealu
+Z1 w1607078223
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z7 8C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/ALU.vhd
+Z8 FC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/ALU.vhd
+l0
+L6 1
+V:HH@TIe0EKd1IJj0XC:f82
+!s100 1BU19CO^[79TOg6c`Nzdk0
+Z9 OV;C;2020.1;71
+31
+Z10 !s110 1607078250
+!i10b 1
+Z11 !s108 1607078250.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/ALU.vhd|
+Z13 !s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/ALU.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Astructural
+R2
+R3
+R4
+R5
+R6
+DEx4 work 3 alu 0 22 :HH@TIe0EKd1IJj0XC:f82
+!i122 0
+l93
+L18 102
+V2=5Vo<^VFGk>eKz7J@VD71
+!s100 6]@GziOVUccL7jEJR_4EJ0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ecomp_add
+Z16 w1607015891
+R4
+R3
+R5
+R6
+!i122 4
+R0
+Z17 8C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_add.vhd
+Z18 FC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_add.vhd
+l0
+L6 1
+VVfh5^T`oL2_K4ZRQTDV]S1
+!s100 TngNBCMkMBaRK`Djbbz012
+R9
+31
+Z19 !s110 1607078251
+!i10b 1
+Z20 !s108 1607078251.000000
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_add.vhd|
+Z22 !s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_add.vhd|
+!i113 1
+R14
+R15
+Adataflow
+R4
+R3
+R5
+R6
+DEx4 work 8 comp_add 0 22 Vfh5^T`oL2_K4ZRQTDV]S1
+!i122 4
+l44
+L15 121
+VI=aDmMnzORc]YYcl?2egC3
+!s100 L6H[i088O^jzg6^JZ;5_V1
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Ecomp_nand
+R16
+R4
+R3
+R5
+R6
+!i122 2
+R0
+Z23 8C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_nand.vhd
+Z24 FC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_nand.vhd
+l0
+L6 1
+VNOVNF5Vin@B[5>;AIVfj13
+!s100 :[;AkaiSfHnCDGINoN:Az1
+R9
+31
+R19
+!i10b 1
+R11
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_nand.vhd|
+Z26 !s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_nand.vhd|
+!i113 1
+R14
+R15
+Adataflow
+R4
+R3
+R5
+R6
+DEx4 work 9 comp_nand 0 22 NOVNF5Vin@B[5>;AIVfj13
+!i122 2
+l16
+Z27 L14 7
+VDc7lz3c32SW`kjmlhV>eS3
+!s100 =?12=fZkEkhIT?fl`gD5n1
+R9
+31
+R19
+!i10b 1
+R11
+R25
+R26
+!i113 1
+R14
+R15
+Ecomp_xor
+R16
+R4
+R3
+R5
+R6
+!i122 1
+R0
+Z28 8C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_xor.vhd
+Z29 FC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_xor.vhd
+l0
+L6 1
+V?Af?@zY4I3N_`]e^:?<130
+!s100 Qikl`j=0BDI5Edoj`a5>f3
+R9
+31
+R10
+!i10b 1
+R11
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_xor.vhd|
+Z31 !s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_xor.vhd|
+!i113 1
+R14
+R15
+Adataflow
+R4
+R3
+R5
+R6
+DEx4 work 8 comp_xor 0 22 ?Af?@zY4I3N_`]e^:?<130
+!i122 1
+l16
+R27
+VTWza0_Z=l6P4h4dMa`JdG0
+!s100 K<gVBEPieAJ];dl<I5D`:2
+R9
+31
+R10
+!i10b 1
+R11
+R30
+R31
+!i113 1
+R14
+R15
+Ecomp_zero
+Z32 w1607078209
+R4
+R3
+R5
+R6
+!i122 7
+R0
+Z33 8C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_zero.vhd
+Z34 FC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_zero.vhd
+l0
+L6 1
+VY=CokeTJW>M1>2d3Ldn_n0
+!s100 em9_@UcnOET6OnVURQ9i30
+R9
+31
+R19
+!i10b 1
+R20
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_zero.vhd|
+Z36 !s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/comp_zero.vhd|
+!i113 1
+R14
+R15
+Adataflow
+R4
+R3
+R5
+R6
+DEx4 work 9 comp_zero 0 22 Y=CokeTJW>M1>2d3Ldn_n0
+!i122 7
+l16
+L14 16
+V8LE3_W3eG[b2RMo=^NO920
+!s100 4dg_Dz9AIdX>>>SR7;@Gd2
+R9
+31
+R19
+!i10b 1
+R20
+R35
+R36
+!i113 1
+R14
+R15
+Egg
+R16
+R4
+R3
+R5
+R6
+!i122 6
+R0
+Z37 8C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GG.vhd
+Z38 FC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GG.vhd
+l0
+L6 1
+VKWo0SgS2USV4XAD2e4lRB3
+!s100 CPe0i@5UTZU<^J=9GRSK53
+R9
+31
+R19
+!i10b 1
+R20
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GG.vhd|
+Z40 !s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GG.vhd|
+!i113 1
+R14
+R15
+Adataflow
+R4
+R3
+R5
+R6
+DEx4 work 2 gg 0 22 KWo0SgS2USV4XAD2e4lRB3
+!i122 6
+l16
+R27
+VdIJ<abVo_;V2W72lYI1_z0
+!s100 4HETETe_7h:>;9OeQQh=12
+R9
+31
+R19
+!i10b 1
+R20
+R39
+R40
+!i113 1
+R14
+R15
+Egpgg
+R16
+R4
+R3
+R5
+R6
+!i122 5
+R0
+Z41 8C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GPGG.vhd
+Z42 FC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GPGG.vhd
+l0
+L6 1
+VQW8KOnfB=U63z74G`1LQZ1
+!s100 n5E>PaDifIC=58bGeemMN3
+R9
+31
+R19
+!i10b 1
+R20
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GPGG.vhd|
+Z44 !s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/GPGG.vhd|
+!i113 1
+R14
+R15
+Adataflow
+R4
+R3
+R5
+R6
+DEx4 work 4 gpgg 0 22 QW8KOnfB=U63z74G`1LQZ1
+!i122 5
+l16
+L14 8
+VkWVnF1ee5hU`cmj1n7_b^3
+!s100 ?m9iiJI<4Bm9DiVhjnM[z1
+R9
+31
+R19
+!i10b 1
+R20
+R43
+R44
+!i113 1
+R14
+R15
+Emux
+Z45 w1607078060
+R4
+R3
+R5
+R6
+!i122 3
+R0
+Z46 8C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux.vhd
+Z47 FC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux.vhd
+l0
+L6 1
+VnkU@[7C:j7^NeI2ajHmmj2
+!s100 mUW5S@ez@ZU<2K`7n0]UQ0
+R9
+31
+R19
+!i10b 1
+R20
+Z48 !s90 -reportprogress|300|-93|-work|work|C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux.vhd|
+Z49 !s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux.vhd|
+!i113 1
+R14
+R15
+Adataflow
+R4
+R3
+R5
+R6
+DEx4 work 3 mux 0 22 nkU@[7C:j7^NeI2ajHmmj2
+!i122 3
+l17
+L15 20
+V12aDQWh?YYI7oNjN9KhJ=2
+!s100 RdY0Qlh1Nk75z4dOb?Od?2
+R9
+31
+R19
+!i10b 1
+R20
+R48
+R49
+!i113 1
+R14
+R15
+Emux2
+Z50 w1607077431
+R4
+R3
+R5
+R6
+!i122 8
+R0
+Z51 8C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux2.vhd
+Z52 FC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux2.vhd
+l0
+L6 1
+V1W38^K3VQfjhk2aTg0aW12
+!s100 CJPS7[l[Hm:[W8o;mCE_S2
+R9
+31
+R19
+!i10b 1
+R20
+Z53 !s90 -reportprogress|300|-93|-work|work|C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux2.vhd|
+Z54 !s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/mux2.vhd|
+!i113 1
+R14
+R15
+Adataflow
+R4
+R3
+R5
+R6
+DEx4 work 4 mux2 0 22 1W38^K3VQfjhk2aTg0aW12
+!i122 8
+l17
+L15 26
+VRPPKJd9UIALl@G`KBkeaC1
+!s100 2a2kAbPoB`2Q<M6kd2oE81
+R9
+31
+R19
+!i10b 1
+R20
+R53
+R54
+!i113 1
+R14
+R15
+Etb_alu
+Z55 w1607078139
+R5
+R6
+!i122 9
+R0
+Z56 8C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/../tb_ALU.vhd
+Z57 FC:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/../tb_ALU.vhd
+l0
+L6 1
+V90]@hiOVYlk19o?XC7^G@3
+!s100 ]Rc^_5@>zN<SLV8Un[2]`3
+R9
+31
+R19
+!i10b 1
+R20
+Z58 !s90 -reportprogress|300|-93|-work|work|C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/../tb_ALU.vhd|
+!s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/../tb_ALU.vhd|
+!i113 1
+R14
+R15
+Atb
+R5
+R6
+DEx4 work 6 tb_alu 0 22 90]@hiOVYlk19o?XC7^G@3
+!i122 9
+l33
+L10 105
+Vn]>nIW;FH7BgYfn?BOCN92
+!s100 NQUGfJ`Hcf3g`R5G1fe:b1
+R9
+31
+R19
+!i10b 1
+R20
+R58
+Z59 !s107 C:/Users/shyam.SHYAMUDA/Downloads/Course-Project-EE224-main/Project Part A/Part A/../tb_ALU.vhd|
+!i113 1
+R14
+R15

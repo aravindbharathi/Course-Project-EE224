@@ -7,23 +7,23 @@ entity comp_zero is
 	port 
 		( 
 		X: in STD_LOGIC_VECTOR(15 downto 0);
-		Y: inout STD_LOGIC
+		Y: out STD_LOGIC
 		);
 end comp_zero;
 
 architecture dataflow of comp_zero is
-
+signal localY: std_logic;
 begin
 
-process (X,Y)
+process (X,localY)
 	begin
 
 	if (X = x"0") then
-		Y <= '1';
+		localY <= '1';
 	else
-		Y <= '0';
+		localY <= '0';
 	end if;
 
 end process;
-	
+	Y <= localY;
 end dataflow;
